@@ -1,0 +1,56 @@
+body{
+  margin: 0px;  
+  text-align: center;
+}
+
+#imgPerfil{
+    width: 200px;
+    border-radius: 20px;
+}
+#home{
+    text-align: center;
+    background: linear-gradient(orange, rgb(61, 155, 223));
+ 
+    padding: 70px;
+    color: white;
+}
+#perfil p{
+    padding: 100px;
+    text-align: justify;
+    font-size: 18px;
+
+}
+section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+iframe{
+    width: 1000px;
+    height: 400px;
+}
+
+#meuMenu{
+    list-style:none;
+    position: fixed;
+    background-color: rgb(220, 107, 8);
+    opacity: 80%;
+    width: 100%;
+    top:-20px;
+
+
+}
+#meuMenu li{
+    float: left;
+    margin: 20px;
+}
+#meuMenu li a{
+    text-decoration: none;
+}
+section h3{
+    font-size: 25px;
+    text-decoration: underline solid orange;
+    text-underline-offset: 10px;
+}
+#listaOl{
+    width: fit-content;
+}
